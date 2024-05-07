@@ -1,0 +1,57 @@
+:root {
+  --primary-color: #0d1013;
+  --background-color-1: #212428;
+  --color-white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: var(--background-color-1);
+}
+
+/* NAVIGATION CONTAINER */
+
+.nav_container {
+  max-width: 1300px;
+  background-color: var(--background-color-1);
+  display: flex;
+  justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+/* NAVIGATION LINKS CONTAINER */
+
+.nav_links_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+/* Naviagation links */
+
+.nav_link {
+  text-decoration: none;
+  color: var(--color-white);
+}
+
+.profile_img {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

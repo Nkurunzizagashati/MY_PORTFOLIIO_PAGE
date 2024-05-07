@@ -5,7 +5,7 @@
   --color-light: hsl(0, 0%, 50%);
 
   /* FONT SIZES */
-  --larger-text: 2.5rem;
+  --larger-text: 2.25rem;
   --large-text: 1.8rem;
   --medium-text: 1.1rem;
   --small-text: 0.8rem;
@@ -83,6 +83,13 @@ body {
 }
 
 /* MAIN CONTAINER */
+main {
+  line-height: 4rem;
+}
+
+span {
+  color: #ff014f;
+}
 p,
 h1,
 h2,

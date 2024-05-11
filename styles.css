@@ -135,13 +135,19 @@ h3 {
 .home-section {
   display: grid;
   justify-content: space-between;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 3fr 2fr;
 }
 
 .home-contents-container {
-  min-width: 400px;
+}
+
+.home-img-container {
+  background-color: blue;
+  display: flex;
+  padding-top: 1rem;
+  justify-content: center;
 }
 
 .home-img {
-  height: 30%;
+  height: 400px;
 }

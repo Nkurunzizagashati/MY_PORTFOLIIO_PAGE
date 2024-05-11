@@ -136,13 +136,20 @@ h3 {
   display: grid;
   justify-content: space-between;
   grid-template-columns: 3fr 2fr;
+  padding-top: 15rem;
 }
 
 .home-contents-container {
 }
 
+.behind-img-box {
+  width: 100%;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  height: 350px;
+}
 .home-img-container {
-  background-color: blue;
   display: flex;
   padding-top: 1rem;
   justify-content: center;
@@ -150,4 +157,5 @@ h3 {
 
 .home-img {
   height: 400px;
+  align-self: flex-end;
 }

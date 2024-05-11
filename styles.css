@@ -108,3 +108,9 @@ h3 {
   margin-right: auto;
   margin-left: auto;
 }
+
+/* SECTIONS */
+
+.section {
+  min-height: 100vh;
+}

@@ -144,10 +144,10 @@ h3 {
 
 .behind-img-box {
   width: 100%;
-  background-color: red;
   display: flex;
   justify-content: center;
   height: 350px;
+  box-shadow: 0 0 2px;
 }
 .home-img-container {
   display: flex;

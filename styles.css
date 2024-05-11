@@ -48,6 +48,15 @@ body {
   gap: 0.5rem;
 }
 
+/* HEADER */
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
 /* NAVIGATION LINKS CONTAINER */
 
 .nav_links_container {
@@ -118,4 +127,5 @@ h3 {
 .section {
   min-height: 100vh;
   border-bottom: 1px solid var(--color-light);
+  padding-top: 6rem;
 }

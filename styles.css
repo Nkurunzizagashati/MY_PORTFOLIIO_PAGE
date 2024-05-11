@@ -87,7 +87,7 @@ main {
   line-height: 4rem;
 }
 
-span {
+.colored-text {
   color: #ff014f;
 }
 p,

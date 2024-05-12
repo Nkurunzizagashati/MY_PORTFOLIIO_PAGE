@@ -176,9 +176,6 @@ h3 {
 } */
 
 .social-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   text-decoration: none;
 }
 .home-img-container {

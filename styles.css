@@ -226,6 +226,15 @@ h3 {
 
 .services-section {
   margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.section-title {
+  text-align: center;
 }
 
 .services-cards-container {

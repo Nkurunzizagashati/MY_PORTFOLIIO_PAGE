@@ -154,6 +154,33 @@ h3 {
 .home-contents-container {
 }
 
+.fa-brands {
+  font-size: 30px;
+  color: var(--color-light);
+}
+
+.fa-instagram:hover {
+  color: rgb(195, 43, 162);
+}
+
+.fa-linkedin:hover {
+  color: rgb(0, 119, 181);
+}
+
+.fa-facebook-f:hover {
+  color: rgb(59, 89, 152);
+}
+
+/* .social-medias-container a {
+  padding: 1rem;
+} */
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
 .home-img-container {
   display: flex;
   padding-top: 1rem;

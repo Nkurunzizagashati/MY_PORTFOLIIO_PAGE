@@ -221,3 +221,9 @@ h3 {
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 }
+
+/* SERVICES SECTION */
+
+.services-section {
+  margin-top: 4rem;
+}

@@ -154,6 +154,15 @@ h3 {
 .home-contents-container {
 }
 
+.social-media-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
 .fa-brands {
   font-size: 30px;
   color: var(--color-light);
@@ -171,13 +180,30 @@ h3 {
   color: rgb(59, 89, 152);
 }
 
-/* .social-medias-container a {
-  padding: 1rem;
-} */
-
-.social-link {
-  text-decoration: none;
+.social-medias-container {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  gap: 2rem;
 }
+
+.social-medias-container li {
+  text-align: center;
+  box-shadow: 0 0 4px var(--color-light);
+  padding: 10px;
+}
+
+.social-medias-container li:hover {
+  scale: 1.025;
+}
+
+.social-medias-container a {
+  text-decoration: none;
+  margin: 0;
+  display: flex;
+  padding: 2px;
+}
+
 .home-img-container {
   display: flex;
   padding-top: 1rem;

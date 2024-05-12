@@ -227,3 +227,8 @@ h3 {
 .services-section {
   margin-top: 4rem;
 }
+
+.services-cards-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

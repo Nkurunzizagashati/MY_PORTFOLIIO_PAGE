@@ -128,17 +128,16 @@ h3 {
 .section {
   min-height: 100vh;
   border-bottom: 1px solid var(--color-light);
-  padding-top: 6rem;
 }
 
 /* HOME SECTION */
 
 .home-section {
   display: grid;
-  gap: 2rem;
+  gap: 6rem;
   justify-content: space-between;
   grid-template-columns: 3fr 2fr;
-  padding-top: 15rem;
+  padding-top: 10rem;
 }
 
 .home-contents-container {
@@ -206,9 +205,8 @@ h3 {
 
 .home-img-container {
   display: flex;
-  padding-top: 1rem;
   justify-content: center;
-  padding: 1rem;
+  padding-top: 6rem;
 }
 
 .behind-img-box {
@@ -223,5 +221,6 @@ h3 {
 .home-img {
   height: 400px;
   align-self: flex-end;
-  border-radius: 8px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }

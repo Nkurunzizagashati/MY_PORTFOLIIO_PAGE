@@ -57,6 +57,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 99;
 }
 
 /* NAVIGATION LINKS CONTAINER */
@@ -211,7 +212,7 @@ h3 {
 }
 .home-img-container:hover {
   cursor: pointer;
-  transform: translateY(0.75rem);
+  transform: translateY(1rem);
 }
 
 .behind-img-box {

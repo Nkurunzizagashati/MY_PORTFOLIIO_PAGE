@@ -207,6 +207,11 @@ h3 {
   display: flex;
   justify-content: center;
   padding-top: 6rem;
+  transition: transform 1000ms;
+}
+.home-img-container:hover {
+  cursor: pointer;
+  transform: translateY(0.75rem);
 }
 
 .behind-img-box {

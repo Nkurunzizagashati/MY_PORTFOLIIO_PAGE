@@ -162,6 +162,7 @@ h3 {
 .fa-brands {
   font-size: 30px;
   color: var(--color-light);
+  min-width: 30px;
 }
 
 .fa-instagram:hover {
@@ -187,10 +188,11 @@ h3 {
   text-align: center;
   box-shadow: 0 0 4px var(--color-light);
   padding: 10px;
+  transition: transform 300ms;
 }
 
 .social-medias-container li:hover {
-  scale: 1.025;
+  transform: translateY(-0.35rem);
 }
 
 .social-medias-container a {
@@ -240,4 +242,9 @@ h3 {
 .services-cards-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.services-card {
+  box-shadow: 0 0 4px var(--color-light);
 }

@@ -235,6 +235,7 @@ h3 {
 
 .services-section {
   margin-top: 4rem;
+  padding: 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -255,3 +256,5 @@ h3 {
 .services-card {
   box-shadow: 0 0 4px var(--color-light);
 }
+
+/* ANNIMATIONS */

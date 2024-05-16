@@ -149,7 +149,6 @@ h3 {
 .text-leading {
   line-height: 1.5rem;
   font-size: var(--text-leading);
-  margin-top: 2rem;
 }
 
 .social {
@@ -249,8 +248,20 @@ h3 {
 
 .services-cards-container {
   display: grid;
+  align-items: center;
+  justify-content: center;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
+}
+
+.card-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-contents-wrapper {
+  text-align: center;
 }
 
 .services-card {

@@ -264,8 +264,13 @@ h3 {
   text-align: center;
 }
 
+.card-title {
+  color: var(--color-red);
+}
+
 .services-card {
-  box-shadow: 0 0 4px var(--color-light);
+  box-shadow: 0 0 10px var(--color-light);
+  padding: 1rem 2rem;
 }
 
 /* ANNIMATIONS */

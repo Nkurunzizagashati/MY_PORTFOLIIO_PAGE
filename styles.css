@@ -1,3 +1,9 @@
+@property --gradient-angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
 :root {
   --primary-color: #0d1013;
   --background-color-1: #212428;
@@ -17,7 +23,8 @@
   --clr-2: #073438;
   --clr-3: #0e4b50;
   --clr-4: #2d8f85;
-  --clr-4: #637c54;
+  --clr-5: #637c54;
+  --clr-6: #000;
 }
 
 * {
@@ -280,9 +287,48 @@ h3 {
 }
 
 .services-card {
+  background: var(--background-color-1);
   box-shadow: 0 0 10px var(--color-light);
   padding: 1rem 2rem;
   cursor: pointer;
+  position: relative;
+  border-radius: 0.5rem;
+}
+
+.services-card:hover:before,
+.services-card:hover:after {
+  content: "";
+  position: absolute;
+  inset: -0.2rem;
+  z-index: -1;
+  background: conic-gradient(
+    from var(--gradient-angle),
+    var(--clr-3),
+    var(--clr-4),
+    var(--clr-5),
+    var(--clr-6),
+    var(--clr-4),
+    var(--color-light),
+    var(--background-color-1),
+    var(--background-color-1),
+    var(--background-color-1),
+    var(--clr-3)
+  );
+  border-radius: inherit;
+  animation: rotate 3s linear infinite;
+}
+
+.services-card::after {
+  filter: blur(0.5rem);
 }
 
 /* ANNIMATIONS */
+
+@keyframes rotate {
+  0% {
+    --gradient-angle: 0deg;
+  }
+  100% {
+    --gradient-angle: 360deg;
+  }
+}

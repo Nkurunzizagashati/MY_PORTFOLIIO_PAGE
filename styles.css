@@ -328,6 +328,24 @@ h3 {
   gap: 2rem;
 }
 
+.portfolio-card-img {
+  width: 100%;
+}
+
+.project-demo {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.project-demo a {
+  color: var(--color-white);
+  font: bold;
+  font-size: var(--large-text);
+  text-decoration: none;
+}
+
 /* ANNIMATIONS */
 
 @keyframes rotate {

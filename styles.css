@@ -394,6 +394,11 @@ h3 {
   gap: 4rem;
 }
 
+.address-icon {
+  font-size: 3rem;
+  color: var(--color-white);
+}
+
 /* ANNIMATIONS */
 
 @keyframes rotate {

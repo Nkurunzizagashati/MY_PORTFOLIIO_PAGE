@@ -407,6 +407,7 @@ span {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  justify-content: center;
 }
 
 .address {

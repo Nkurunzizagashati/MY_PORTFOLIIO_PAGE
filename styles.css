@@ -330,6 +330,8 @@ h3 {
 
 .portfolio-card-img {
   width: 100%;
+  max-height: 200px;
+  object-fit: cover;
 }
 
 .project-demo {
@@ -348,7 +350,7 @@ h3 {
   font: bold;
   font-size: var(--large-text);
   text-decoration: none;
-  background: var(--color-red);
+  background: #000;
   padding: 0.025rem 1rem;
   border-radius: 0.8rem;
   width: 8rem;
@@ -356,7 +358,7 @@ h3 {
 }
 
 .project-demo a:hover {
-  background: #000;
+  background: var(--color-red);
 }
 
 .card-all-content-container {
@@ -375,6 +377,13 @@ h3 {
   justify-content: center;
   align-items: center;
   line-height: 1.5rem;
+}
+
+.recomended a {
+  background: var(--color-red);
+}
+.recomended a:hover {
+  background: #000;
 }
 
 /* ANNIMATIONS */

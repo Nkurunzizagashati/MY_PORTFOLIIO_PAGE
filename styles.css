@@ -464,6 +464,12 @@ textarea {
   justify-content: center;
   padding: 0 2rem;
 }
+
+input:focus + .input-label,
+input:valid + .input-label {
+  top: -0.2rem;
+  color: var(--color-red);
+}
 /* ANNIMATIONS */
 
 @keyframes rotate {

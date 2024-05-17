@@ -337,13 +337,21 @@ h3 {
   width: 100%;
   justify-content: center;
   gap: 4rem;
+  margin-top: 2rem;
 }
 
 .project-demo a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: var(--color-white);
   font: bold;
   font-size: var(--large-text);
   text-decoration: none;
+  background: #000;
+  padding: 0.025rem 1rem;
+  border-radius: 0.8rem;
+  width: 8rem;
 }
 
 /* ANNIMATIONS */

@@ -436,6 +436,8 @@ textarea {
   border-radius: 0.8rem;
   outline: none;
   font-size: var(--medium-text);
+  border: none;
+  border-bottom: var(--color-light) 2px solid;
 }
 
 textarea {
@@ -446,6 +448,11 @@ textarea {
   background: var(--color-red);
   cursor: pointer;
   color: var(--color-light);
+  transition: all 300ms;
+}
+
+.submit-button:hover {
+  opacity: 0.8;
 }
 
 .input-container span {
@@ -454,21 +461,29 @@ textarea {
   top: 1.8rem;
   color: #000;
   font: bold;
-  border: none;
+  transition: all 300ms;
 }
 
 .contact-section {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 3rem;
   justify-content: center;
   padding: 0 2rem;
 }
 
 input:focus + .input-label,
-input:valid + .input-label {
-  top: -0.2rem;
+input:valid + .input-label,
+textarea:focus + .input-label,
+textarea:valid + .input-label {
+  top: -0.8rem;
   color: var(--color-red);
+}
+
+form {
+  background-color: var(--color-white);
+  padding: 2rem 4rem;
+  border-radius: 0.8rem;
 }
 /* ANNIMATIONS */
 

@@ -316,6 +316,18 @@ h3 {
   filter: blur(0.5rem);
 }
 
+/* PORTFOLIO SECTION */
+
+.portfolio-section {
+  margin-top: 4rem;
+  padding: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
 /* ANNIMATIONS */
 
 @keyframes rotate {

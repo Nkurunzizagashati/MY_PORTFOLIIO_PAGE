@@ -440,6 +440,12 @@ textarea {
 textarea {
   resize: none;
 }
+
+.submit-button {
+  background: var(--color-red);
+  cursor: pointer;
+  color: var(--color-light);
+}
 /* ANNIMATIONS */
 
 @keyframes rotate {

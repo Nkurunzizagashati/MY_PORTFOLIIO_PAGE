@@ -421,6 +421,7 @@ span {
   display: flex;
   flex-direction: column;
   width: 100%;
+  position: relative;
 }
 
 form {
@@ -434,7 +435,6 @@ textarea {
   padding: 1rem 2rem;
   border-radius: 0.8rem;
   outline: none;
-  border: none;
   font-size: var(--medium-text);
 }
 
@@ -446,6 +446,14 @@ textarea {
   background: var(--color-red);
   cursor: pointer;
   color: var(--color-light);
+}
+
+.input-container span {
+  position: absolute;
+  left: 2rem;
+  top: 1rem;
+  color: #000;
+  font: bold;
 }
 /* ANNIMATIONS */
 

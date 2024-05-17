@@ -359,6 +359,24 @@ h3 {
   background: #000;
 }
 
+.card-all-content-container {
+  position: relative;
+}
+
+.card-all-content-container:hover::after {
+  content: "Lorem ipsum dolor sit amet consectetur adipisicing elit Consequuntur doloribus officiis reprehenderit laboriosam tenetur odit dolor delectus dolores a quisquam.";
+  inset: 0;
+  background: var(--background-color-1);
+  color: var(--color-light);
+  font-size: var(--text-leading);
+  position: absolute;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5rem;
+}
+
 /* ANNIMATIONS */
 
 @keyframes rotate {

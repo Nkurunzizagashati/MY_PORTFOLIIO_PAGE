@@ -386,6 +386,11 @@ h3 {
   background: #000;
 }
 
+/* CONTACT SECTION */
+
+.contact-main-container {
+}
+
 /* ANNIMATIONS */
 
 @keyframes rotate {

@@ -403,6 +403,13 @@ span {
   color: var(--color-light);
 }
 
+.address {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  align-items: center;
+}
+
 /* ANNIMATIONS */
 
 @keyframes rotate {

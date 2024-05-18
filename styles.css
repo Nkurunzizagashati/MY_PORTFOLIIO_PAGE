@@ -159,6 +159,10 @@ h3 {
   font-size: var(--text-leading);
 }
 
+.home-contents {
+  margin-top: 2rem;
+}
+
 .social {
   display: flex;
   align-items: flex-start;

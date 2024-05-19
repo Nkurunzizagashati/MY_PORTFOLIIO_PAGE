@@ -222,22 +222,18 @@ h3 {
   padding-top: 6rem;
   transition: transform 1000ms;
 }
-.home-img-container:hover {
-  cursor: pointer;
-  transform: translateY(1rem);
-}
 
 .behind-img-box {
   width: 100%;
   display: flex;
   justify-content: center;
   height: 350px;
-  box-shadow: 0 0 4px var(--color-light);
+  box-shadow: 0 0 10px var(--color-light);
   border-radius: 8px;
 }
 
 .home-img {
-  height: 400px;
+  height: 450px;
   align-self: flex-end;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;

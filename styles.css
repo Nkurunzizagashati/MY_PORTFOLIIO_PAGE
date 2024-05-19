@@ -102,6 +102,7 @@ body {
 .profile_img {
   height: 3rem;
   width: 3rem;
+  object-fit: contain;
   border-radius: 50%;
   box-shadow: 0px 0px 10px var(--color-light);
 }

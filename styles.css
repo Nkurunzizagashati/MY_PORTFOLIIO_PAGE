@@ -148,7 +148,7 @@ h3 {
   gap: 6rem;
   justify-content: space-between;
   grid-template-columns: 3fr 2fr;
-  padding-top: 10rem;
+  padding-top: 5rem;
 }
 
 .home-contents-container {
@@ -473,7 +473,7 @@ textarea {
 .contact-section {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 5rem;
   justify-content: center;
   padding: 0 2rem;
 }

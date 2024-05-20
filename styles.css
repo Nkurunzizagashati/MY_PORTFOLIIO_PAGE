@@ -496,6 +496,15 @@ footer {
 .footer-contents-container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
 }
 
 /* ANNIMATIONS */

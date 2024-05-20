@@ -511,6 +511,25 @@ footer {
   font-weight: bold;
 }
 
+/* MEDIA QUERIES */
+
+@media (max-width: 768px) {
+  .home-section {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 1rem;
+  }
+
+  .home-contents-container {
+    text-align: center;
+  }
+
+  .text-larger {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+}
+
 /* ANNIMATIONS */
 
 @keyframes rotate {

@@ -227,7 +227,7 @@ h3 {
   width: 100%;
   display: flex;
   justify-content: center;
-  height: 250px;
+  height: 350px;
   box-shadow: 0 0 10px var(--color-light);
   border-radius: 8px;
 }
@@ -544,7 +544,8 @@ footer {
     align-items: center;
   }
 
-  .home-img-container {
+  .behind-img-box {
+    height: 250px;
   }
 
   .home-img {

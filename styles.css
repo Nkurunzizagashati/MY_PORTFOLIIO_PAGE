@@ -227,7 +227,7 @@ h3 {
   width: 100%;
   display: flex;
   justify-content: center;
-  height: 350px;
+  height: 250px;
   box-shadow: 0 0 10px var(--color-light);
   border-radius: 8px;
 }
@@ -518,15 +518,23 @@ footer {
     display: flex;
     flex-direction: column-reverse;
     padding: 1rem;
+    gap: 2rem;
   }
 
   .home-contents-container {
     text-align: center;
+    line-height: 1.8rem;
   }
 
   .text-larger {
     font-size: 1.8rem;
-    text-align: center;
+  }
+
+  .home-img-container {
+  }
+
+  .home-img {
+    height: 350px;
   }
 }
 

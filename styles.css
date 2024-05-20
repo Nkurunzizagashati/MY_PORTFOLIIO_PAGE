@@ -574,10 +574,8 @@ footer {
     padding: 1rem;
   }
 
-  .input-container {
-  }
   .input-container span {
-    left: 0;
+    left: 1.5rem;
   }
 
   .contact-main-container {

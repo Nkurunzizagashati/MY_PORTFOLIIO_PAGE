@@ -584,10 +584,11 @@ footer {
     padding: 1rem;
   }
 
-  /* PORTFOLIO SECTION */
-
-  .portfolio-section {
+  .address-container {
+    align-items: center;
   }
+
+  /* PORTFOLIO SECTION */
 
   .project-demo {
     gap: 2rem;

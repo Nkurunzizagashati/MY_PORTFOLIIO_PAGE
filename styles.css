@@ -587,7 +587,6 @@ footer {
   /* PORTFOLIO SECTION */
 
   .portfolio-section {
-    background-color: green;
   }
 
   .project-demo {
@@ -597,6 +596,12 @@ footer {
   .card-title {
     line-height: 1.5rem;
     margin: 1rem 0;
+  }
+
+  /* FOOTER */
+  footer {
+    text-align: center;
+    padding-top: 2rem;
   }
 }
 

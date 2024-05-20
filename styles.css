@@ -593,6 +593,10 @@ footer {
   .project-demo {
     gap: 2rem;
   }
+
+  .card-title {
+    line-height: 1.5rem;
+  }
 }
 
 /* ANNIMATIONS */

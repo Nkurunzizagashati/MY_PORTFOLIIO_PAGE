@@ -511,6 +511,18 @@ footer {
 /* MEDIA QUERIES */
 
 @media (max-width: 768px) {
+  /* HEADER AND NAV */
+  .header {
+  }
+
+  .nav_container {
+    flex-direction: column;
+  }
+
+  .nav_links_container {
+    flex-direction: column;
+  }
+
   /* HOME SECTION */
   .home-section {
     display: flex;
@@ -553,10 +565,33 @@ footer {
   /* CONTACT SECTION */
 
   .contact-section {
+    padding: 0;
+    justify-content: center;
+  }
+
+  form {
+    padding: 1rem;
+  }
+
+  .input-container {
+  }
+  .input-container span {
+    left: 0;
   }
 
   .contact-main-container {
     grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 1rem;
+  }
+
+  /* PORTFOLIO SECTION */
+
+  .portfolio-section {
+    background-color: green;
+  }
+
+  .project-demo {
     gap: 2rem;
   }
 }

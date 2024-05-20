@@ -487,6 +487,17 @@ form {
   padding: 2rem 4rem;
   border-radius: 0.8rem;
 }
+
+footer {
+  background-color: red;
+  padding: 4rem 2rem;
+}
+
+.footer-contents-container {
+  display: flex;
+  flex-direction: column;
+}
+
 /* ANNIMATIONS */
 
 @keyframes rotate {

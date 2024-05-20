@@ -514,6 +514,7 @@ footer {
 /* MEDIA QUERIES */
 
 @media (max-width: 768px) {
+  /* HOME SECTION */
   .home-section {
     display: flex;
     flex-direction: column-reverse;
@@ -530,11 +531,26 @@ footer {
     font-size: 1.8rem;
   }
 
+  .social {
+    align-items: center;
+  }
+
   .home-img-container {
   }
 
   .home-img {
     height: 350px;
+  }
+
+  /* SERVICES SECTION */
+
+  .services-section {
+    padding: 2rem;
+  }
+  .services-cards-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0;
   }
 }
 

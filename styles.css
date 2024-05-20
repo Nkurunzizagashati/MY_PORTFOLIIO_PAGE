@@ -429,6 +429,9 @@ form {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  background-color: var(--color-white);
+  padding: 2rem 4rem;
+  border-radius: 0.8rem;
 }
 
 input,
@@ -480,12 +483,6 @@ textarea:focus + .input-label,
 textarea:valid + .input-label {
   top: -0.8rem;
   color: var(--color-red);
-}
-
-form {
-  background-color: var(--color-white);
-  padding: 2rem 4rem;
-  border-radius: 0.8rem;
 }
 
 footer {
@@ -551,6 +548,16 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
     padding: 0;
+  }
+
+  /* CONTACT SECTION */
+
+  .contact-section {
+  }
+
+  .contact-main-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
   }
 }
 

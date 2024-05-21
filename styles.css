@@ -530,6 +530,22 @@ footer {
 /* MEDIA QUERIES */
 
 @media (max-width: 768px) {
+  /* HAMBURGER */
+
+  .hamMenu {
+    display: block;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .hamMenu span {
+    position: absolute;
+    width: 25px;
+    height: 2px;
+    background-color: red;
+  }
   /* HEADER AND NAV */
   .header {
   }

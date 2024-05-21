@@ -533,25 +533,40 @@ footer {
   /* HAMBURGER */
 
   .hamMenu {
-    display: block;
     display: flex;
     width: 100%;
-    flex-direction: column;
-    position: relative;
+    background-color: blue;
+    position: fixed;
+    top: 0;
+    height: 100px;
+    z-index: 99;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 4rem 2rem;
   }
 
-  .hamMenu span {
-    position: absolute;
-    width: 25px;
-    height: 2px;
-    background-color: red;
+  .fa-bars {
+    font-size: 3rem;
+    color: var(--color-white);
   }
   /* HEADER AND NAV */
-  .header {
-  }
 
   .nav_container {
+    width: 70%;
+    position: fixed;
+    right: -70%;
+    top: 0;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: space-between;
     flex-direction: column;
+    transition: 3s ease;
+  }
+
+  .nav_container.active {
+    right: 0;
   }
 
   .nav_links_container {

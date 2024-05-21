@@ -371,7 +371,11 @@ h3 {
 }
 
 .lets-connect-card:hover::after {
-  content: "Let's connect is a web appliaction that serves as a space for like-minded individuals in the IT sector to connect and collaborate easily.Users can create groups based on their missions or the issues they aim to solve. Additionally, the platform will enable users to form groups centered around the courses they are taking, fostering a supportive environment for teaching and learning from one another.";
+  content: "Let's connect is a web appliaction that serves as a space for like-minded individuals in the IT sector in Rwanda to connect and collaborate easily. The platform will enable users to form groups centered around the courses they are taking, fostering a supportive environment for teaching and learning from one another.";
+}
+
+.learning-platform-card:hover::after {
+  content: "RPC(Rwanda Youth Programmers Connection) is a learning platform for young programmers in Rwanda. They will find there different programming courses and exercises.";
 }
 
 .card-all-content-container:hover::after {

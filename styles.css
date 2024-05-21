@@ -370,6 +370,10 @@ h3 {
   content: "Kira is a web based application that serves as a hospital hub where patients can access information related to hospitals in their vicinity. They can compare different hospitals, make informed decisions, and even book appointments with healthcare providers. This solution aims to reduce long waiting times, save patients money, and improve overall healthcare access.";
 }
 
+.lets-connect-card:hover::after {
+  content: "Let's connect is a web appliaction that serves as a space for like-minded individuals in the IT sector to connect and collaborate easily.Users can create groups based on their missions or the issues they aim to solve. Additionally, the platform will enable users to form groups centered around the courses they are taking, fostering a supportive environment for teaching and learning from one another.";
+}
+
 .card-all-content-container:hover::after {
   inset: 0;
   background: var(--background-color-1);

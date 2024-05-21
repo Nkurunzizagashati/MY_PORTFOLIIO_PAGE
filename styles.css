@@ -366,8 +366,11 @@ h3 {
   position: relative;
 }
 
+.hospital-info-card:hover::after {
+  content: "Kira is a web based application that serves as a hospital hub where patients can access information related to hospitals in their vicinity. They can compare different hospitals, make informed decisions, and even book appointments with healthcare providers. This solution aims to reduce long waiting times, save patients money, and improve overall healthcare access.";
+}
+
 .card-all-content-container:hover::after {
-  content: "Lorem ipsum dolor sit amet consectetur adipisicing elit Consequuntur doloribus officiis reprehenderit laboriosam tenetur odit dolor delectus dolores a quisquam.";
   inset: 0;
   background: var(--background-color-1);
   color: var(--color-light);

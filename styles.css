@@ -378,6 +378,10 @@ h3 {
   content: "RPC(Rwanda Youth Programmers Connection) is a learning platform for young programmers in Rwanda. They will find there different programming courses and exercises.";
 }
 
+.movie-rating-platform-card:hover::after {
+  content: "This is web based application that allow people to rate different movies and also allow them to provide their feedbacks on those movies";
+}
+
 .card-all-content-container:hover::after {
   inset: 0;
   background: var(--background-color-1);

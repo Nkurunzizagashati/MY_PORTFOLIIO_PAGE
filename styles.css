@@ -523,6 +523,10 @@ footer {
   font-weight: bold;
 }
 
+.hamMenu {
+  display: none;
+}
+
 /* MEDIA QUERIES */
 
 @media (max-width: 768px) {

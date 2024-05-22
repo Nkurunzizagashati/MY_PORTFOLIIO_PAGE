@@ -567,6 +567,7 @@ footer {
     transform: translateX(100%);
     background-color: transparent;
     backdrop-filter: blur(16rem);
+    transition: transform 300ms ease-out;
   }
 
   .nav_container[navListOpen="true"] {

@@ -557,18 +557,17 @@ footer {
     align-items: center;
     justify-content: center;
     gap: 0.8rem;
-    /* position: absolute;
-    left: 2rem;
-    top: 2rem; */
   }
   .nav_container {
     display: grid;
     grid-template-columns: 1fr;
     position: fixed;
     inset: 0 0 0 30%;
-    transform: translateX(100%);
+    transform: translateX(0%);
+    background-color: transparent;
+    backdrop-filter: blur(16rem);
   }
-  .header {
+  /* .header {
     background-color: transparent;
     backdrop-filter: blur(3rem);
     position: fixed;
@@ -576,7 +575,7 @@ footer {
     height: 100px;
     left: 0;
     right: 0;
-  }
+  } */
 
   .nav_links_container {
     display: flex;

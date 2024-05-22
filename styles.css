@@ -27,7 +27,9 @@
   --clr-6: #000;
 }
 
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -39,6 +41,7 @@ html {
 
 body {
   background-color: var(--background-color-1);
+  overflow-x: hidden;
 }
 
 /* NAVIGATION CONTAINER */
@@ -529,55 +532,15 @@ footer {
 /* MEDIA QUERIES */
 
 @media (max-width: 768px) {
-  /* HAMBURGER */
-
-  .hamMenu {
-    display: flex;
-    width: 100%;
-    background-color: var(--background-color-1);
-    position: fixed;
-    top: 0;
-    height: 100px;
-    z-index: 99;
-    align-items: center;
-    justify-content: flex-end;
-    padding: 4rem 2rem;
-  }
-  .hamMenu span {
-    padding: 0.5rem;
-    border-radius: 0.2rem;
-    background-color: var(--background-color-1);
-    border: 1px solid var(--color-light);
-  }
-
-  .fa-bars {
-    font-size: 3rem;
-    color: var(--color-white);
-  }
-  /* HEADER AND NAV */
-
   .nav_container {
-    width: 70%;
-    position: fixed;
-    right: -70%;
-    top: 0;
-    bottom: 0;
-    display: grid;
-    grid-template-columns: 1fr;
-    align-items: center;
-    justify-content: space-between;
+    display: flex;
     flex-direction: column;
-    transition: 3s ease;
-  }
-
-  .nav_container.active {
-    right: 0;
   }
 
   .nav_links_container {
+    display: flex;
     flex-direction: column;
   }
-
   /* HOME SECTION */
   .home-section {
     display: flex;

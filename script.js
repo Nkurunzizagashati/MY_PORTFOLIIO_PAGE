@@ -19,4 +19,10 @@ hamMenu.addEventListener("click", () => {
       .querySelector(".nav_container")
       .setAttribute("navListOpen", "false");
   }
+
+  if (hamMenu.classList.contains("fa-bars")) {
+    hamMenu.classList.replace("fa-bars", "fa-xmark");
+  } else {
+    hamMenu.classList.replace("fa-xmark", "fa-bars");
+  }
 });

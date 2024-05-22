@@ -220,7 +220,6 @@ h3 {
   display: flex;
   justify-content: center;
   padding-top: 6rem;
-  transition: transform 1000ms;
 }
 
 .behind-img-box {
@@ -543,6 +542,12 @@ footer {
     align-items: center;
     justify-content: flex-end;
     padding: 4rem 2rem;
+  }
+  .hamMenu span {
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    background-color: var(--background-color-1);
+    border: 1px solid var(--color-light);
   }
 
   .fa-bars {

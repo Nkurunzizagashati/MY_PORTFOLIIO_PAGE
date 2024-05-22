@@ -544,6 +544,7 @@ footer {
     top: 1rem;
     right: 1rem;
     z-index: 9999;
+    background-color: var(--background-color-1);
   }
 
   .hamMenu {
@@ -563,19 +564,14 @@ footer {
     grid-template-columns: 1fr;
     position: fixed;
     inset: 0 0 0 30%;
-    transform: translateX(0%);
+    transform: translateX(100%);
     background-color: transparent;
     backdrop-filter: blur(16rem);
   }
-  /* .header {
-    background-color: transparent;
-    backdrop-filter: blur(3rem);
-    position: fixed;
-    top: 0;
-    height: 100px;
-    left: 0;
-    right: 0;
-  } */
+
+  .nav_container[navListOpen="true"] {
+    transform: translateX(0%);
+  }
 
   .nav_links_container {
     display: flex;

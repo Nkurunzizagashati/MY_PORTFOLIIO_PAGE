@@ -665,6 +665,39 @@ footer {
   .section {
     margin-top: 1rem;
   }
+
+  .section-title {
+    line-height: 1.8rem;
+  }
+}
+
+@media (min-width: 850px) and (max-width: 1280px) {
+  .home-section {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 4rem;
+    gap: 2rem;
+    padding-top: 6rem;
+  }
+
+  .home-contents-container {
+    text-align: center;
+    line-height: 1.8rem;
+  }
+
+  .text-larger {
+    font-size: 1.8rem;
+  }
+
+  .social {
+    align-items: center;
+  }
+
+  /* ALL SECTIONS */
+
+  .section {
+    margin-top: 0;
+  }
 }
 
 /* ANNIMATIONS */

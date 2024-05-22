@@ -26,3 +26,15 @@ hamMenu.addEventListener("click", () => {
     hamMenu.classList.replace("fa-xmark", "fa-bars");
   }
 });
+
+const navLinks = document.querySelectorAll(".nav_link");
+
+navLinks.forEach((navLink) => {
+  navLink.addEventListener("click", (e) => {
+    document
+      .querySelector(".nav_container")
+      .setAttribute("navListOpen", "false");
+
+    hamMenu.classList.replace("fa-xmark", "fa-bars");
+  });
+});

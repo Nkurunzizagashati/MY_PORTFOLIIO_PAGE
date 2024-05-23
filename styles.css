@@ -67,6 +67,10 @@ body {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  color: var(--color-light);
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
 }
 
 .color1,
@@ -665,6 +669,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 10rem;
   }
   /* HOME SECTION */
   .home-section {

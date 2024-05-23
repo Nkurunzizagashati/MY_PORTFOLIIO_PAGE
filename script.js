@@ -62,5 +62,17 @@ mode.addEventListener("click", (_) => {
     document.documentElement.style.setProperty("--color-dark", "#212428");
     document.documentElement.style.setProperty("--background-color-1", "#fff");
     mode.classList.replace("fa-sun", "fa-moon");
+  } else {
+    document.documentElement.style.setProperty(
+      "--color-light",
+      "hsl(0, 0%, 80%)"
+    );
+    document.documentElement.style.setProperty("--color-white", "#fff");
+    document.documentElement.style.setProperty("--color-dark", "#000");
+    document.documentElement.style.setProperty(
+      "--background-color-1",
+      "#212428"
+    );
+    mode.classList.replace("fa-moon", "fa-sun");
   }
 });

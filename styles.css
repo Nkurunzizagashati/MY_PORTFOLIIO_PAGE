@@ -51,7 +51,7 @@ body {
 
 .variable-colors-container {
   position: absolute;
-  top: 40vh;
+  top: 35vh;
   right: 2rem;
   display: flex;
   flex-direction: column;
@@ -356,6 +356,11 @@ h3 {
 
 .card-img {
   height: 150px;
+}
+
+.frontend-logo,
+.backend-logo {
+  background-color: #fff;
 }
 
 .services-card {

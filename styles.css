@@ -735,15 +735,10 @@ footer {
   }
 
   .address-container {
-    align-items: center;
+    align-items: flex-start;
   }
 
   .address a {
-    text-decoration: none;
-  }
-
-  .insta-acc {
-    color: red;
     text-decoration: none;
   }
 
@@ -793,6 +788,30 @@ footer {
 
   .download-resume:hover {
     background-color: hsl(0, 0%, 80%);
+  }
+
+  /* TYPOGRAPHY RESPONSIVENESS CONTROLL */
+
+  .text-leading {
+    font-size: clamp(1.2rem, 0.5vw, 1.5rem);
+    text-align: justify;
+    line-height: 1.3rem;
+    hyphens: auto;
+  }
+
+  .portfolio-section .text-leading {
+    text-transform: lowercase;
+    text-align: center;
+  }
+
+  .project-demo a {
+    padding: 0;
+    font-size: 1rem;
+    width: 8rem;
+  }
+
+  footer .text-leading {
+    text-align: center;
   }
 }
 

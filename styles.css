@@ -63,6 +63,12 @@ body {
   padding: 0.5rem;
 }
 
+.varColors-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
 .color1,
 .color2,
 .color3 {
@@ -758,6 +764,7 @@ footer {
     flex-direction: row;
     left: 2rem;
     top: 35vh;
+    gap: 1rem;
   }
 
   .mode {

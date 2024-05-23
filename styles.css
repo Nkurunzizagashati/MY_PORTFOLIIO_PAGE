@@ -625,8 +625,7 @@ footer {
     top: 1rem;
     left: 1rem;
     z-index: 9999;
-    /* background-color: var(--background-color-1); */
-    background-color: red;
+    background-color: var(--background-color-1);
   }
 
   .hamMenu {

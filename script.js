@@ -43,3 +43,10 @@ navLinks.forEach((navLink) => {
 
 const colorVar = document.documentElement.getAttribute("--color-red");
 const colorVaribleHolders = document.querySelectorAll(".varColor");
+
+colorVaribleHolders.forEach((holder) => {
+  holder.addEventListener("click", (e) => {
+    const colorValue = holder.colorValue;
+    console.log(colorValue);
+  });
+});

@@ -66,7 +66,7 @@ body {
 }
 
 .color1 {
-  background-color: HSL(260, 59%, 41%);
+  background-color: HSL(260, 89%, 41%);
 }
 
 .color2 {
@@ -150,6 +150,7 @@ main {
 
 .colored-text {
   color: var(--color-red);
+  transition: all 300ms ease;
 }
 p,
 h1,
@@ -310,6 +311,7 @@ h3 {
 
 .card-title {
   color: var(--color-red);
+  transition: all 300ms ease;
 }
 
 .card-img {

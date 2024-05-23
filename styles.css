@@ -738,6 +738,15 @@ footer {
     align-items: center;
   }
 
+  .address a {
+    text-decoration: none;
+  }
+
+  .insta-acc {
+    color: red;
+    text-decoration: none;
+  }
+
   /* PORTFOLIO SECTION */
 
   .project-demo {

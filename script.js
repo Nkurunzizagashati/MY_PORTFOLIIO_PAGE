@@ -46,7 +46,7 @@ const colorVaribleHolders = document.querySelectorAll(".varColor");
 
 colorVaribleHolders.forEach((holder) => {
   holder.addEventListener("click", (e) => {
-    const colorValue = holder.colorValue;
-    console.log(colorValue);
+    const colorValue = holder.getAttribute("colorValue");
+    document.documentElement.style.setProperty("--color-red", colorValue);
   });
 });

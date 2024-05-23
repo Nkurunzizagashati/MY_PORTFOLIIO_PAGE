@@ -9,8 +9,7 @@
   --background-color-1: #212428;
   --color-white: #fff;
   --color-light: hsl(0, 0%, 80%);
-  --color-red1: #ff014f;
-  --color-red: HSL(260, 59%, 41%);
+  --color-red: #ff014f;
 
   /* FONT SIZES */
   --larger-text: 2.25rem;
@@ -54,6 +53,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  background-color: var(--background-color-1);
 }
 
 .color1,
@@ -61,6 +61,7 @@ body {
   width: 2rem;
   aspect-ratio: 1/1;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .color1 {

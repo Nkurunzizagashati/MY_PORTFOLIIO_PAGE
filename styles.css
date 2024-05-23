@@ -49,11 +49,26 @@ body {
 
 .variable-colors-container {
   position: absolute;
-  top: 30vh;
+  top: 40vh;
   right: 2rem;
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+}
+
+.color1,
+.color2 {
+  width: 2rem;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+
+.color1 {
+  background-color: HSL(260, 59%, 41%);
+}
+
+.color2 {
+  background-color: #2b9aa6;
 }
 
 /* NAVIGATION CONTAINER */

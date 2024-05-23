@@ -42,3 +42,4 @@ navLinks.forEach((navLink) => {
 // DYNAMIC ASCENT COLOR
 
 const colorVar = document.documentElement.getAttribute("--color-red");
+const colorVaribleHolders = document.querySelectorAll(".varColor");

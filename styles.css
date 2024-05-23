@@ -675,7 +675,8 @@ footer {
   }
 
   .text-larger {
-    font-size: 1.8rem;
+    font-size: clamp(1rem, 0.2vw, 1.8rem);
+    line-height: 1.2rem;
   }
 
   .social {

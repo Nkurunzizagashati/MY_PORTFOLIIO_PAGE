@@ -38,3 +38,7 @@ navLinks.forEach((navLink) => {
     hamMenu.classList.replace("fa-xmark", "fa-bars");
   });
 });
+
+// DYNAMIC ASCENT COLOR
+
+const colorVar = document.documentElement.getAttribute("--color-red");

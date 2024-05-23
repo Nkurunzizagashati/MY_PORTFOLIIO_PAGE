@@ -1,5 +1,10 @@
 let typed = new Typed("#typed", {
-  strings: ["frontend developer", "backend developer", "fullstack developer"],
+  strings: [
+    "frontend developer",
+    "backend developer",
+    "mobile developer",
+    "ui/ux designer",
+  ],
   typeSpeed: 50,
   loop: true,
 });

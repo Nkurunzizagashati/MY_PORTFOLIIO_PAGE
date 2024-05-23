@@ -9,7 +9,8 @@
   --background-color-1: #212428;
   --color-white: #fff;
   --color-light: hsl(0, 0%, 80%);
-  --color-red: #ff014f;
+  --color-red1: #ff014f;
+  --color-red: HSL(260, 59%, 41%);
 
   /* FONT SIZES */
   --larger-text: 2.25rem;
@@ -42,6 +43,17 @@ html {
 body {
   background-color: var(--background-color-1);
   overflow-x: hidden;
+}
+
+/* VARIBLE COLORS */
+
+.variable-colors-container {
+  position: absolute;
+  top: 30vh;
+  right: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 /* NAVIGATION CONTAINER */

@@ -50,3 +50,16 @@ colorVaribleHolders.forEach((holder) => {
     document.documentElement.style.setProperty("--color-red", colorValue);
   });
 });
+
+// SWITCHING BETWEEN DARK AND LIGHT MODES
+
+const mode = document.querySelector(".mode");
+
+mode.addEventListener("click", (_) => {
+  if (mode.classList.contains("fa-sun")) {
+    document.documentElement.style.setProperty("--color-light", "#212428");
+    document.documentElement.style.setProperty("--color-white", "#212428");
+    document.documentElement.style.setProperty("--background-color-1", "#fff");
+    mode.classList.replace("fa-sun", "fa-moon");
+  }
+});

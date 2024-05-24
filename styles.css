@@ -656,8 +656,9 @@ footer {
     position: fixed;
     inset: 0 30% 0 0;
     transform: translateX(-100%);
-    background-color: transparent;
-    backdrop-filter: blur(16rem);
+    /* background-color: transparent;
+    backdrop-filter: blur(16rem); */
+    background-color: var(--background-color-1);
     transition: transform 300ms ease-out;
   }
 
@@ -774,6 +775,9 @@ footer {
     left: 2rem;
     top: 35vh;
     gap: 1rem;
+    background-color: var(--background-color-1);
+    opacity: 0.8rem;
+    border: 1px solid var(--color-light);
   }
 
   .mode {

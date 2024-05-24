@@ -525,6 +525,18 @@ span {
   align-items: center;
 }
 
+.address a {
+  text-decoration: none;
+  color: var(--color-light);
+}
+
+.instagram-address {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
 .input-container {
   display: flex;
   flex-direction: column;

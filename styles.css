@@ -799,13 +799,15 @@ footer {
   .text-leading {
     font-size: clamp(1.2rem, 0.5vw, 1.5rem);
     text-align: justify;
-    line-height: 1.3rem;
+    line-height: 1.6rem;
     hyphens: auto;
+    word-spacing: -0.1rem;
   }
 
   .portfolio-section .text-leading {
     text-transform: lowercase;
     text-align: center;
+    line-height: 1.3rem;
   }
 
   .project-demo a {

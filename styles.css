@@ -247,6 +247,11 @@ h3 {
   font-size: var(--text-leading);
 }
 
+.home-section .text-leading {
+  text-align: justify;
+  line-height: 1.6rem;
+}
+
 .home-contents {
   margin-top: 2rem;
 }
